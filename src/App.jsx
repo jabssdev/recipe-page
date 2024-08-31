@@ -1,7 +1,10 @@
+import { Header } from "./assets/components/Header";
+import { RecipeContainer } from "./assets/components/RecipeContainer";
 function App() {
 	return (
 		<>
-			<h1 className="font-young-serif p-5">App Component</h1>
+			<Header />
+			<RecipeContainer />
 		</>
 	);
 }
