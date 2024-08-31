@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: "Outfit";
+		font-style: normal;
+		font-weight: 100 900;
+		font-display: swap;
+		src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf"), format("truetype");
+	}
+
+	@font-face {
+		font-family: "Young Serif";
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+		src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf"), format("truetype");
+	}
+}
