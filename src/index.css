@@ -19,3 +19,13 @@
 		src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf"), format("truetype");
 	}
 }
+
+@layer components {
+	.li-center {
+		@apply relative flex items-center min-h-6;
+	}
+
+	.li-center::before {
+		@apply content-["·"] absolute -left-[1.6rem] text-[1.75rem] leading-[1] text-ct-rose-800;
+	}
+}
