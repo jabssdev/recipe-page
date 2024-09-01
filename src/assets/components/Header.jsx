@@ -12,20 +12,20 @@ export const Header = () => {
 				</p>
 				<div className="py-6 pl-6 pr-14 bg-ct-rose-50 rounded-xl">
 					<h3 className="text-xl font-[700] mb-3 text-ct-rose-800">Preparation Time</h3>
-					<ul className="ml-9 marker:text-ct-rose-800 marker:text-[0.775rem] leading-[26px]">
+					<ul className="ml-9 marker:text-ct-rose-800 marker:text-[0.775rem] leading-6">
 						<li className="li-center">
-							<p className="text-ct-stone-600">
-								<span className="font-[700] text-ct-stone-900">Total:</span> Approximately 10 minutes
+							<p className="text-ct-stone-600 mb-1.5">
+								<span className="font-bold text-ct-stone-600">Total:</span> Approximately 10 minutes
 							</p>
 						</li>
 						<li className="li-center">
-							<p className="text-ct-stone-600">
-								<span className="font-[700] text-ct-stone-900">Preparation:</span> 5 minutes
+							<p className="text-ct-stone-600 mb-1.5">
+								<span className="font-bold text-ct-stone-600">Preparation:</span> 5 minutes
 							</p>
 						</li>
 						<li className="li-center">
-							<p className="text-ct-stone-600">
-								<span className="font-[700] text-ct-stone-900">Cooking:</span> 5 minutes
+							<p className="text-ct-stone-600 mb-1.5">
+								<span className="font-bold text-ct-stone-600">Cooking:</span> 5 minutes
 							</p>
 						</li>
 					</ul>
