@@ -2,8 +2,8 @@ import omelette from "../images/image-omelette.jpeg";
 
 export const Header = () => {
 	return (
-		<header className="">
-			<img src={omelette} alt="Plate of a simple omelet" />
+		<header>
+			<img className="sm:px-8 sm:pt-9" src={omelette} alt="Plate of a simple omelet" />
 			<section className="px-8 pt-9">
 				<h1 className="text-4xl font-young-serif mb-5 text-ct-stone-900">Simple Omelette Recipe</h1>
 				<p className="mb-7 text-ct-stone-600 font-[400]">

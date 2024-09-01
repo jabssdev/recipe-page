@@ -34,7 +34,7 @@ export const Nutrition = () => {
 					</p>
 				</div>
 				<hr className="border-ct-stone-600 opacity-25 mb-3" />
-				<div className="grid grid-cols-2 mb-10">
+				<div className="grid grid-cols-2 mb-10 sm:pb-10">
 					<p className="ml-9 text-ct-stone-600">Fat</p>
 					<p
 						className="ml-2
