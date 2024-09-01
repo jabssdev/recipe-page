@@ -1,6 +1,6 @@
 export const Instructions = () => {
 	return (
-		<section className="px-8 pt-7 mb-5">
+		<section className="px-8 pt-7">
 			<h2 className="text-2xl font-young-serif text-ct-rose-800 mb-3">Instructions</h2>
 			<ol className="list-decimal ml-6 marker:text-ct-rose-800 marker:text-[0.895rem] marker:font-[700] leading-7">
 				<li className="">

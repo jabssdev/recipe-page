@@ -11,7 +11,7 @@ export const Header = () => {
 					choice of cheese, vegetables, or meats.
 				</p>
 				<div className="py-6 pl-6 pr-14 bg-ct-rose-50 rounded-xl">
-					<h3 className="text-xl font-[700] mb-3 text-ct-rose-800">Preparation Time</h3>
+					<h3 className="text-xl font-bold mb-3 text-ct-rose-800">Preparation Time</h3>
 					<ul className="ml-9 marker:text-ct-rose-800 marker:text-[0.775rem] leading-6">
 						<li className="li-center">
 							<p className="text-ct-stone-600 mb-1.5">
